@@ -1,0 +1,38 @@
+/*
+    <samplecode>
+        <abstract>
+            Localizable strings for the iOS app.
+        </abstract>
+    </samplecode>
+ */
+
+/* Format for incoming message in the messages view. */
+
+"_<-_%@_" = "➡️ %@";
+
+/* Format for outgoing message in the messages view. */
+
+"_->_%@_" = "⬅️ %@";
+
+/* Connection status associated with the conversation. */
+
+"_not_started_" = "not started";
+"_connecting_" = "connecting…";
+"_connected_" = "connected";
+"_stopped_" = "stopped";
+"_failed_" = "failed";
+
+/* Title for alert view. */
+
+"_Unsupported_Configuration_" = "Unsupported Configuration";
+
+/* Body of alert view. */
+
+"_The_transport_youve_selected_doesnt_support_this_configuration_" = "The transport you’ve selected doesn’t support this configuration.";
+"_The_BSD_Sockets_transport_does_not_support_tls_" = "The BSD Sockets transport does not support TLS.";
+"_The_BSD_Sockets_transport_requires_an_numeric_ip_address_" = "The BSD Sockets transport requires a numeric IPv4 or IPv6 address.";
+"_The_NWTCPConnection_transport_is_not_supported_in_an_application_context_" = "The NWTCPConnection transport is not supported in an application context; it can only be used within an NEProvider.";
+
+/* Default button in alert view. */
+
+"_OK_" = "OK";
